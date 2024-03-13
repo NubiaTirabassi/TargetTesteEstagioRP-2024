@@ -1,0 +1,19 @@
+package ProjetoLacoRepeticao;
+
+public class ProjetoLacoRepeticao {
+	
+	public static void main(String[] args) {
+		
+        int indice = 13;
+        int soma = 0;
+        int contador = 0;
+
+        while (contador < indice) {
+        	contador = contador + 1;
+            soma = soma + contador;
+        }
+
+        System.out.println("O valor da variável SOMA é: " + soma);
+    }
+    
+}

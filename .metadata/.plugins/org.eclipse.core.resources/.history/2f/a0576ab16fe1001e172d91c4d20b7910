@@ -1,0 +1,41 @@
+package Fibonacci;
+
+import java.util.Scanner;
+
+public class VerificaFibonacci {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        System.out.println("===================================================================================");
+        System.out.println("A sequência de Fibonacci é constituída da soma dos números anteriores na contagem, ");
+        System.out.println("ou seja, o terceiro número é o resultado da soma dos dois números anteriores.");
+        System.out.println("Ex.: 0 1 1 2 3 5... -> onde 0 + 1 = 1, 1 + 1 = 2, 2 + 1 = 3...");
+        System.out.println("===================================================================================");
+        System.out.print("Quer descobrir se um número faz parte da sequência? Digite-o aqui: ");
+        int numeroInserido = scanner.nextInt();
+        scanner.close();
+        
+        int anterior = 0;
+        int atual = 1;
+        int soma = 0;
+        boolean encontrado = false;
+        
+        while (soma <= numeroInserido) {
+            if (soma == numeroInserido) {
+                System.out.println("O número " + numeroInserido + " pertence à sequência de Fibonacci.");
+                encontrado = true;
+                break;
+            }
+            soma = anterior + atual;
+            anterior = atual;
+            atual = soma;
+        }
+        
+        if (!encontrado) {
+            System.out.println("O número " + numeroInserido + " não pertence à sequência de Fibonacci.");
+        }
+        
+        System.out.println("Fim do programa.");
+        System.out.println("===================================================================================");
+    }
+}
+

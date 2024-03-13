@@ -1,0 +1,6 @@
+INDEX VERSION 1.134+C:\Users\nurag\OneDrive\Área de Trabalho\TesteEstagioRP-2024\.metadata\.plugins\org.eclipse.jdt.core
+1890033849.index
+1306047591.index
+1474995307.index
+1865797976.index
+1387455045.index

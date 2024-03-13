@@ -1,0 +1,16 @@
+package Fibonacci;
+
+public class RespostaFibonacci {
+	
+	public String retornaNumeroFibonacci(Integer numero) {
+		
+		return "" + numero + "";
+		
+	}
+	
+	public String retornaNumeroNaoFibonacci(Integer numero) {
+		
+		return "" + numero + "";		
+	}
+
+}

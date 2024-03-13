@@ -1,0 +1,26 @@
+package Fibonacci;
+
+import java.util.Scanner;
+
+public class VerificaFibonacci {
+	
+    public static void main(String[] args) {
+    	
+    	RespostaFibonacci resposta = new RespostaFibonacci();
+    	VerificaNumeroFibonacci numeroFibonacci = new VerificaNumeroFibonacci();
+    	
+        Scanner scanner = new Scanner(System.in);
+        System.out.print("Quer descobrir se um número faz parte da sequência? Digite-o aqui: ");
+        Integer numeroInserido = scanner.nextInt();
+        scanner.close();
+
+        
+        if (numeroFibonacci.calculoFibonacci(numeroInserido)) {
+            System.out.println(resposta.retornaNumeroFibonacci(numeroInserido));
+        }else {
+        	 System.out.println(resposta.retornaNumeroNaoFibonacci(numeroInserido));
+        }
+     
+    }
+}
+

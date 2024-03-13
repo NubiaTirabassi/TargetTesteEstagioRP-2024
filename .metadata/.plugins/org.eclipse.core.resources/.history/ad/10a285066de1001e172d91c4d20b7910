@@ -1,0 +1,12 @@
+package ProjetoLacoRepeticao;
+
+public class ProjetoLacoRepeticao {
+	
+	public static void main(String[] args) {
+		
+		Repetidor rep = new Repetidor();
+
+        System.out.println("O valor da variável SOMA é: " + rep.retornaSoma(13));
+    }
+    
+}

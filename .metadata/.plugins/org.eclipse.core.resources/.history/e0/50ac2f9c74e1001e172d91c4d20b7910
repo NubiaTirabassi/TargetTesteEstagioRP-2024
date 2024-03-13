@@ -1,0 +1,5 @@
+package InterruptorLampada;
+
+public @interface InterruptorLampada {
+
+}
