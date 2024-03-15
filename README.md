@@ -1,4 +1,4 @@
-# DESAFIO - TARGET SISTEMAS - RIBEIRÃO PRETO 2024
+# DESAFIO - TARGET SISTEMAS - 2024
 
 Este repositório contém as soluções para o desafio proposto pela Target Sistemas. O desafio foi resolvido utilizando a linguagem Java 21 com a IDE Eclipse.
 
